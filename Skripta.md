@@ -2,4 +2,4 @@
 
 ## Blockchain
 
-Blockchain je decentralizovaný a distribuovaný systém, který zaznamenává informace velmi těžce prolomitelným způsobem.
+Blockchain je decentralizovaný a distribuovaný systém zaznamenávající informace, které je téměř nemožné pozměnit nebo hacknout.
