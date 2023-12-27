@@ -2,4 +2,15 @@
 
 ## Blockchain
 
-Blockchain je decentralizovaný a distribuovaný systém zaznamenávající informace, které je téměř nemožné pozměnit nebo hacknout.
+Blockchain je decentralizovaná a distribuovaná databáze uchovávající informace, které jsou chráněny proti neoprávněnému zásahu jak z vnější strany, tak i ze strany samotných uzlů peer-to-peer sítě.
+
+### databáze
+
+
+Databáze je strukturovaný a organizovaný soubor dat, který umožňuje efektivní ukládání, správu a manipulaci s informacemi.
+
+### decentralizovaná
+
+### distribuovaná
+
+### peer-to-peer
