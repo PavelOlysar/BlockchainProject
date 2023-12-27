@@ -53,3 +53,5 @@ Zde jsou jednoduše vysvětlené kroky, jak blokchain zpracovává a ověřuje t
    - Celý proces se opakuje pro každý nový blok, což vytváří neustále rostoucí řetězec bloků obsahující historii všech transakcí.
 
 Tímto způsobem blockchain poskytuje transparentní a důvěryhodný způsob záznamu transakcí, odolný vůči manipulacím, což nalezne využití nejen v oblasti kryptoměn, ale také v mnoha dalších odvětvích.
+
+## Jak vypadají jednotlivé bloky a celý blockchain?
