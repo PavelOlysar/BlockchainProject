@@ -1,3 +1,5 @@
 # BlockchainProject
 
-This is my blockchain project. 
+Hello 😊,
+
+this is my blockchain project. It's project that I'm doing because 
