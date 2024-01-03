@@ -139,3 +139,32 @@ Proof-of-Stake (PoS) je alternativní mechanismus v blockchainu, kde podíl tě�
 - Využití: Zlepšuje správu a sdílení zdravotních dat, zajišťuje bezpečnost informací a usnadňuje spolupráci mezi zdravotnickými institucemi
 
 ## Kryptoměny
+
+### Bitcoin
+
+- První a nejznámější kryptoměna, která vznikla v roce 2009
+- Vytvořena člověkem nebo skupinou lidí podepsanou jako Satoshi Nakamoto
+- Využívá Proof-of-Work k ověření transakcí a vytváření nových bloků
+
+### Ethereum:
+
+- Kryptoměna, která se zaměřuje nejen na digitální peníze, ale i na provádění smart kontraktů
+- Umožňuje vývojářům vytvářet decentralizované aplikace (DApps) na své platformě
+- Přešlo na Proof-of-Stake, ale v minulosti využívalo Proof-of-Work
+
+
+### Využití kryptoměn:
+
+- Rychlé a bezpečné transakce online bez potřeby bankovního prostředníka
+- Investiční nástroj, kde lidé mohou nakupovat a držet kryptoměny s očekáváním růstu hodnoty
+- Provedení mezinárodních transakcí bez nutnosti konverze měn a vysokých bankovních poplatků
+
+## Shrnutí
+
+Blockchain je decentralizovaná a distribuovaná databáze, kde jsou informace uloženy v blocích propojených do řetězce. Výhody zahrnují odolnost vůči výpadkům a decentralizaci moci.
+
+Konsenzuální mechanismy, jako je Proof-of-Work (PoW) a Proof-of-Stake (PoS), zajišťují spolehlivost blockchainu. PoW vyžaduje výpočetní práci, zatímco PoS používá podíl na kryptoměně.
+
+Blockchain nalézá využití v kryptoměnách (jako Bitcoin a Ethereum), smart kontraktech, dodavatelském řetězci a zdravotnictví. Kryptoměny umožňují rychlé a bezpečné transakce, smart kontrakty automatizují dohody, dodavatelský řetězec zvyšuje transparentnost, a v zdravotnictví zlepšuje správu a sdílení zdravotních dat.
+
+Celkově blockchain mění způsob, jakým uchováváme a spravujeme data, s potenciálem přinést inovace v různých odvětvích.
