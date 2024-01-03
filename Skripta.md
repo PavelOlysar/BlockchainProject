@@ -108,6 +108,34 @@ Proof-of-Stake (PoS) je alternativní mechanismus v blockchainu, kde podíl tě�
 ### Porovnání PoW vs PoS
 
 
+#### Proof-of-Work (PoW):
+
+- Výhody: Více otestovaný a ověřený
+- Nevýhody: Vyžaduje hodně energie pro těžbu
+
+#### Proof-of-Stake (PoS):
+
+- Výhody: Energeticky efektivnější a levnější
+- Nevýhody: Může vést k nerovnoměrné distribuci kryptoměny, protože ti, kteří už mají více, mají tendenci získat ještě více
+
+
 ## Využití blockchainu
+
+
+### Kryptoměny:
+
+- Využití: Elektronické formy peněz, umožňují rychlé a bezpečné transakce online
+
+### Smart kontrakty:
+
+- Využití: Automatické a bezpečné provádění dohodnutých podmínek, například v oblasti obchodu nebo právních smluv
+
+### Dodavatelský řetězec:
+
+- Využití:  Zlepšuje sledování produktů od výroby po prodej, minimalizuje rizika podvodu a zabraňuje padělání výrobků
+
+### Zdravotnictví:
+
+- Využití: Zlepšuje správu a sdílení zdravotních dat, zajišťuje bezpečnost informací a usnadňuje spolupráci mezi zdravotnickými institucemi
 
 ## Kryptoměny
