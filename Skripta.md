@@ -33,28 +33,28 @@ Výhody: snižuje závislost na centrálních autoritách
 Zde jsou jednoduše vysvětlené kroky, jak blockchain zpracovává a ověřuje transakce nebo jiná data:
 
 1. **Transakce:**
-   - Uživatelé začínají tím, že provádějí transakce, například převodem kryptoměny nebo záznamem jiných dat.
+   - Uživatelé začínají tím, že provádějí transakce, například převodem kryptoměny nebo záznamem jiných dat
 
 2. **Seskupení do bloků:**
-   - Tyto transakce jsou seskupeny do bloků s časovým razítkem.
+   - Tyto transakce jsou seskupeny do bloků s časovým razítkem
 
 3. **Distribuce bloku:**
-   - Nový blok je distribuován do všech uzlů v síti.
+   - Nový blok je distribuován do všech uzlů v síti
 
 4. **Ověření transakcí:**
-   - Uzly v síti (počítače, které jsou součástí daného blockchainu) ověřují a potvrzují platnost transakcí pomocí matematických algoritmů a snaží se o dosažení konsenzu (shody). Blockchain vyžaduje dosažení konsenzu mezi uzly ohledně platnosti nového bloku, což zajišťuje schválení změn a jeho začlenění do blockchainu. 
+   - Uzly v síti (počítače, které jsou součástí daného blockchainu) ověřují a potvrzují platnost transakcí pomocí matematických algoritmů a snaží se o dosažení konsenzu (shody). Blockchain vyžaduje dosažení konsenzu mezi uzly ohledně platnosti nového bloku, což zajišťuje schválení změn a jeho začlenění do blockchainu
 
 5. **Rozdání odměn:**
-   -  Uzly dostanou odměnu za dosažení konsenzu, většinou ve formě kryptoměn.
+   -  Uzly dostanou odměnu za dosažení konsenzu, většinou ve formě kryptoměn
 
 6. **Přídání bloku**
    - Když uzly schválí transakce, přidají do blockchainu nový blok obsahující veškeré informace
 
 7. **Distribuce:**
-   - Blok je distribuován po celém blockchainu. 
+   - Blok je distribuován po celém blockchainu
 
 8. **Provedení transakce a opakování procesu:**
-   - Jakmile je blok přidán do blockchainu, stává se neměnným a odolným vůči zásahům. Celý proces se opakuje pro každý nový blok, což vytváří neustále rostoucí řetězec bloků obsahující historii všech transakcí.
+   - Jakmile je blok přidán do blockchainu, stává se neměnným a odolným vůči zásahům. Celý proces se opakuje pro každý nový blok, což vytváří neustále rostoucí řetězec bloků obsahující historii všech transakcí
 
 Tímto způsobem blockchain poskytuje transparentní a důvěryhodný způsob záznamu transakcí, odolný vůči manipulacím, což nalezne využití nejen v oblasti kryptoměn, ale také v mnoha dalších odvětvích.
 
@@ -100,7 +100,7 @@ Proof-of-Work (PoW) je mechanismus konsenzu v blockchainu, kde účastníci (tzv
 Proof-of-Stake (PoS) je alternativní mechanismus v blockchainu, kde podíl těžařů není měřen prací, kterou vykonali, ale množstvím kryptoměny, kterou těžaři vlastní a jsou ochotni ji "odložit" jako záruku za správné ověřování bloků. V PoS je výběr těžařů závislý na jejich podílu na množství kryptoměny, kterou vlastní (tzv. stake). Čím větší je stake, tím větší je pravděpodobnost, že daný uživatel bude vybrán k ověření transakcí a přidání bloku. V případě PoS je odměna za vyřešení problému většinou transakční poplatek za transakce, které jsou zařazeny do bloku, který byl vytvořen. Poté je třeba stejně jako u PoW, aby bylo ověřeno zda je nový blok platný.
 
 <a href="https://cdn.hashnode.com/res/hashnode/image/upload/v1650958282969/x3UZx8rTh.jpg?auto=compress,format&format=webp">
-  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1650958282969/x3UZx8rTh.jpg?auto=compress,format&format=webp" alt="PoW vs Pos" width="680"/>
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1650958282969/x3UZx8rTh.jpg?auto=compress,format&format=webp" alt="PoW vs Pos" width="675"/>
 </a>
 
 [Odkaz na obrázek](https://cdn.hashnode.com/res/hashnode/image/upload/v1650958282969/x3UZx8rTh.jpg?auto=compress,format&format=webp)
