@@ -56,7 +56,7 @@ Zde jsou jednoduše vysvětlené kroky, jak blockchain zpracovává a ověřuje 
 8. **Provedení transakce a opakování procesu:**
    - Jakmile je blok přidán do blockchainu, stává se neměnným a odolným vůči zásahům. Celý proces se opakuje pro každý nový blok, což vytváří neustále rostoucí řetězec bloků obsahující historii všech transakcí
 
-Tímto způsobem blockchain poskytuje transparentní a důvěryhodný způsob záznamu transakcí, odolný vůči manipulacím, což nalezne využití nejen v oblasti kryptoměn, ale také v mnoha dalších odvětvích.
+Tímto způsobem blockchain poskytuje bezpečný a důvěryhodný způsob záznamu transakcí a jiných dat, odolný vůči manipulacím, což nalezne využití nejen v oblasti kryptoměn, ale také v mnoha dalších odvětvích.
 
 ## Jak vypadají jednotlivé bloky a celý blockchain?
                                                       
@@ -97,7 +97,7 @@ Proof-of-Work (PoW) je mechanismus konsenzu v blockchainu, kde účastníci (tzv
 
 
 ### Proof-of-Stake (PoS)
-Proof-of-Stake (PoS) je alternativní mechanismus v blockchainu, kde podíl těžařů není měřen prací, kterou vykonali, ale množstvím kryptoměny, kterou těžaři vlastní a jsou ochotni ji "odložit" jako záruku za správné ověřování bloků. V PoS je výběr těžařů závislý na jejich podílu na množství kryptoměny, kterou vlastní (tzv. stake). Čím větší je stake, tím větší je pravděpodobnost, že daný uživatel bude vybrán k ověření transakcí a přidání bloku. V případě PoS je odměna za vyřešení problému většinou transakční poplatek za transakce, které jsou zařazeny do bloku, který byl vytvořen. Poté je třeba stejně jako u PoW, aby bylo ověřeno zda je nový blok platný.
+Proof-of-Stake (PoS) je alternativní mechanismus v blockchainu, kde podíl těžařů není měřen prací, kterou vykonali, ale množstvím kryptoměny, kterou těžaři vlastní. V PoS je výběr těžařů závislý na jejich podílu na množství kryptoměny, kterou vlastní (tzv. stake). Čím větší je stake, tím větší je pravděpodobnost, že daný uživatel bude vybrán k ověření transakcí a přidání bloku. V případě PoS je odměna za vyřešení problému většinou transakční poplatek za transakce, které jsou zařazeny do bloku, který byl vytvořen. Poté je třeba stejně jako u PoW, aby bylo ověřeno zda je nový blok platný.
 
 <a href="https://cdn.hashnode.com/res/hashnode/image/upload/v1650958282969/x3UZx8rTh.jpg?auto=compress,format&format=webp">
   <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1650958282969/x3UZx8rTh.jpg?auto=compress,format&format=webp" alt="PoW vs Pos" width="675"/>
@@ -165,6 +165,6 @@ Blockchain je decentralizovaná a distribuovaná databáze, kde jsou informace u
 
 Konsenzuální mechanismy, jako je Proof-of-Work (PoW) a Proof-of-Stake (PoS), zajišťují spolehlivost blockchainu. PoW vyžaduje výpočetní práci, zatímco PoS používá podíl na kryptoměně.
 
-Blockchain nalézá využití v kryptoměnách (jako Bitcoin a Ethereum), smart kontraktech, dodavatelském řetězci a zdravotnictví. Kryptoměny umožňují rychlé a bezpečné transakce, smart kontrakty automatizují dohody, dodavatelský řetězec zvyšuje transparentnost, a v zdravotnictví zlepšuje správu a sdílení zdravotních dat.
+Blockchain nalézá využití v kryptoměnách (jako Bitcoin a Ethereum), smart kontraktech, dodavatelském řetězci, zdravotnictví a mnoha dalších oblastech. 
 
 Celkově blockchain mění způsob, jakým uchováváme a spravujeme data, s potenciálem přinést inovace v různých odvětvích.
