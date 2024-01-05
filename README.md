@@ -1,5 +1,4 @@
 # BlockchainProject
 
-Hello,
+This is my blockchain project. It's project that I'm doing because I wanted to learn blockchain.
 
-this is my blockchain project. It's project that I'm doing because I wanted to learn blockchain.
