@@ -17,7 +17,7 @@ class Block{
         return SHA256(this.index + this.previousHash + this.timestamp + JSON.stringify(this.data) + this.nonce).toString();
     }
 
-    // 
+    // funkce pro Proof-of-Work (těžení bloku)
     mineBlock(difficulty){
         while(this.hash.substring(0, difficulty) !== Array(difficulty + 1).join("0")){
             this.nonce++;
