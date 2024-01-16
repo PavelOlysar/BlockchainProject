@@ -1,5 +1,4 @@
 # Blockchain a kryptoměny skripta
-
 ## Co je to blockchain?
 
 Blockchain je decentralizovaná a distribuovaná databáze uchovávající informace, které jsou chráněny proti neoprávněnému zásahu, jak z vnější strany, tak i ze strany samotných uzlů peer-to-peer sítě. Informace v blockchainu jsou seskupeny do bloků a každý nový blok je propojen s předchozím, vytvářející tak "řetězec bloků" – z čehož pochází název "blockchain".
@@ -85,9 +84,6 @@ Každý blockchain může vypadat trochu jinak a může obsahovat další inform
 
 [Odkaz na obrázek a diskuzi ohledně tohoto bloku](https://www.linkedin.com/pulse/how-does-block-blockchain-look-like-vijay-raghunathan)
 
-### Ukázka mého demo-blockchainu
-
----
 
 ## Konsenzus
 
@@ -172,3 +168,6 @@ Konsenzuální mechanismy, jako je Proof-of-Work (PoW) a Proof-of-Stake (PoS), z
 Blockchain nalézá využití v kryptoměnách (jako Bitcoin a Ethereum), smart kontraktech, dodavatelském řetězci, zdravotnictví a mnoha dalších oblastech. 
 
 Celkově blockchain mění způsob, jakým uchováváme a spravujeme data, s potenciálem přinést inovace v různých odvětvích.
+
+
+## Ukázka mého demo blockchainu
