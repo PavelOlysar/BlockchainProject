@@ -66,7 +66,7 @@ SuprHustyCoin.addBlock(new Block(1, "16/01/2024", { amount: 4 }));
 SuprHustyCoin.addBlock(new Block(2, "16/01/2024", { amount: 15 }));
 SuprHustyCoin.addBlock(new Block(3, "16/01/2024", { amount: 25 }));
 
-//SuprHustyCoin.chain[1].data = { amount: 9999999 };
+SuprHustyCoin.chain[1].data = { amount: 9999999 };
 
 if(SuprHustyCoin.isChainValid()){
     console.log(JSON.stringify(SuprHustyCoin, null, 4));
