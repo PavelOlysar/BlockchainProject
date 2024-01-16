@@ -4,22 +4,22 @@
 
 Blockchain je decentralizovaná a distribuovaná databáze uchovávající informace, které jsou chráněny proti neoprávněnému zásahu, jak z vnější strany, tak i ze strany samotných uzlů peer-to-peer sítě. Informace v blockchainu jsou seskupeny do bloků a každý nový blok je propojen s předchozím, vytvářející tak "řetězec bloků" – z čehož pochází název "blockchain".
 
-### # databáze
+### databáze
 Databáze je strukturovaný a organizovaný soubor dat, který umožňuje efektivní ukládání, správu a manipulaci s informacemi.
 
-### # decentralizovaná
+### decentralizovaná
 Autorita a řízení nejsou koncentrovány na jednom místě, ale jsou rozloženy do více uzlů nebo míst.\
 V případě blockchainu decentralizace znamená, že nikdo nekontroluje nebo vlastní celý blockchain, ale naopak všichni jsou si rovni.
 
 Výhody: odolnost vůči výpadkům nebo útokům, protože pravděpodobně neselžou všechny body v jeden moment
 
-### # distribuovaná
+### distribuovaná
 Zpracování úkolů nebo úložiště dat není omezeno jediným centrálním počítačem, ale je rozprostřeno mezi několik počítačů či uzlů.\
 V případě blockchainu, každý počítač v síti má vlastní kopii celého rětězce.
 
 Výhody: větší bezpečnost a odolnost vůči neoprávněným změnám 
 
-### # peer-to-peer
+### peer-to-peer
 Způsob komunikace, kde jednotlivé počítače nebo zařízení (peery) komunikují přímo mezi sebou, aniž by byla nutná centrální autorita.\
 V případě blockchainu to znamená, že bloky mezi sebou nemají centrum přes, které by komunikovali. Komunikují přímo mezi sebou.
 
