@@ -1,7 +1,7 @@
 const SHA256 = require('crypto-js/sha256')
 
 
-// definování bloku a vytvoření hashovací funkce
+// definování bloku a vytvoření funkcí
 class Block{
     constructor(index, timestamp, data, previousHash = ''){
         this.index = index;
@@ -9,17 +9,31 @@ class Block{
         this.data = data;
         this.previousHash = previousHash;
         this.hash = this.calculateHash();
+        this.nonce = 0;
     }
 
+    // funkce pro zahashování bloku
     calculateHash(){
-        return SHA256(this.index + this.previousHash + this.timestamp + JSON.stringify(this.data)).toString();
+        return SHA256(this.index + this.previousHash + this.timestamp + JSON.stringify(this.data) + this.nonce).toString();
+    }
+
+    // 
+    mineBlock(difficulty){
+        while(this.hash.substring(0, difficulty) !== Array(difficulty + 1).join("0")){
+            this.nonce++;
+            this.hash = this.calculateHash();
+        }
+
+        console.log("Block mined: " + this.hash);
     }
 }
+
 
 // definování blockchainu a vytvoření funkcí
 class Blockchain{
     constructor(){
         this.chain = [this.createGenesisBlock()];
+        this.difficulty = 4;
     }
 
     // funkce pro vytvoření Genesis bloku
@@ -35,7 +49,7 @@ class Blockchain{
     // funkce pro přidání bloku
     addBlock(newBlock){
         newBlock.previousHash = this.getLatestBlock().hash;
-        newBlock.hash = newBlock.calculateHash();
+        newBlock.mineBlock(this.difficulty);
         this.chain.push(newBlock);
     }
 
@@ -62,14 +76,19 @@ class Blockchain{
 // vytvoření blockchainu, přidání bloků, ověření blockchainu a vypsání do konzole
 let SuprHustyCoin = new Blockchain();
 
+console.log('Mining block 1...');
 SuprHustyCoin.addBlock(new Block(1, "16/01/2024", { amount: 4 }));
+
+console.log('Mining block 2...');
 SuprHustyCoin.addBlock(new Block(2, "16/01/2024", { amount: 15 }));
-SuprHustyCoin.addBlock(new Block(3, "16/01/2024", { amount: 25 }));
 
-SuprHustyCoin.chain[1].data = { amount: 9999999 };
 
-if(SuprHustyCoin.isChainValid()){
-    console.log(JSON.stringify(SuprHustyCoin, null, 4));
-}else{
-    console.log(false);
-}
+// SuprHustyCoin.addBlock(new Block(3, "16/01/2024", { amount: 25 }));
+
+// SuprHustyCoin.chain[1].data = { amount: 9999999 };
+
+// if(SuprHustyCoin.isChainValid()){
+//     console.log(JSON.stringify(SuprHustyCoin, null, 4));
+// }else{
+//     console.log(false);
+// }
