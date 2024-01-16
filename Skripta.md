@@ -85,6 +85,10 @@ Každý blockchain může vypadat trochu jinak a může obsahovat další inform
 
 [Odkaz na obrázek a diskuzi ohledně tohoto bloku](https://www.linkedin.com/pulse/how-does-block-blockchain-look-like-vijay-raghunathan)
 
+### Ukázka mého demo-blockchainu
+
+---
+
 ## Konsenzus
 
 Konsenzus (shoda) slouží v blockchainu k dosažení shody mezi uzly sítě ohledně platnosti dat v novém bloku, což zajišťuje důvěryhodnost. Tato shoda mezi uzly v blockchainu je klíčová pro zajištění spolehlivosti a bezpečnosti sítě. Podrobněji si vysvětlíme mechanismy, jako je Proof-of-Work (PoW) a Proof-of-Stake (PoS), které jsou používány k dosažení této shody a udržení bezpečnosti blockchainu.
