@@ -1,4 +1,4 @@
-const {Blockchain, Transaction} = require('*./blockchain')
+const {Blockchain, Transaction} = require('./blockchain.js')
 
 let suprHustyCoin = new Blockchain();
 
