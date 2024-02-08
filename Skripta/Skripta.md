@@ -7,7 +7,7 @@ Blockchain je decentralizovaná a distribuovaná databáze uchovávající infor
 Databáze je strukturovaný a organizovaný soubor dat, který umožňuje efektivní ukládání, správu a manipulaci s informacemi.
 
 ### decentralizovaná
-Autorita a řízení nejsou koncentrovány na jednom místě, ale jsou rozloženy do více uzlů nebo míst
+Autorita a řízení nejsou koncentrovány na jednom místě, ale jsou rozloženy do více uzlů nebo míst.\
 V případě blockchainu decentralizace znamená, že nikdo nekontroluje nebo vlastní celý blockchain, ale naopak všichni jsou si rovni.
 
 Výhody: odolnost vůči výpadkům nebo útokům, protože pravděpodobně neselžou všechny body v jeden moment
