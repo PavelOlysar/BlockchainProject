@@ -1,11 +1,38 @@
-const SHA256 = require('crypto-js/sha256')
+const SHA256 = require('crypto-js/sha256');
+const EC = require('elliptic').ec;
+const ec = new EC('secp256k1');
 
-// definování transakce
+// definování transakce + funkce
 class Transaction {
     constructor(fromAddress, toAddress, amount) {
         this.fromAddress = fromAddress;
         this.toAddress = toAddress;
         this.amount = amount;
+    }
+
+    calculateHash(){
+        return SHA256(this.fromAddress + this.toAddress + this.amount).toString();
+    }
+
+    signTransaction(signingKey){
+        if(signingKey.getPublic('hex') !== this.fromAddress){
+            throw new Error('You cannot sign transactions for other wallets');
+        }
+
+        const hashTx = this.calculateHash();
+        const sig = signingKey.sign(hashTx, 'base64');
+        this.signiture = sig.toDER('hex');
+    }
+
+    isValid(){
+        if(this.fromAddress === null) return true;
+
+        if(!this.signiture || this.signiture.length === 0){
+            throw new Error('No signiture in this transaction.');
+        }
+
+        const publicKey = ec.keyFromPublic(this.fromAddress, 'hex');
+        return publicKey.verify(this.calculateHash(), this.signiture)
     }
 }
 
@@ -15,8 +42,8 @@ class Block {
         this.timestamp = timestamp;
         this.transactions = transactions;
         this.previousHash = previousHash;
-        this.hash = this.calculateHash();
         this.nonce = 0;
+        this.hash = this.calculateHash();
     }
 
     // funkce pro zahashování bloku
@@ -32,6 +59,16 @@ class Block {
         }
 
         console.log("Block mined: " + this.hash);
+    }
+
+    hasValidTransactions(){
+        for(const tx of this.transactions){
+            if(!tx.isValid()){
+                return false;
+            }
+        }
+
+        return true;
     }
 }
 
@@ -72,7 +109,16 @@ class Blockchain {
     }
 
     // funkce pro vytvoření transakce
-    createTransaction(transaction) {
+    addTransaction(transaction) {
+
+        if(!transaction.fromAddress || !transaction.toAddress){
+            throw new Error('Transaction must include from and to address.')
+        }
+
+        if(!transaction.isValid()){
+            throw new Error('Invalid transaction.')
+        }
+
         this.pendingTransactions.push(transaction);
     }
 
@@ -100,6 +146,10 @@ class Blockchain {
         for (let i = 1; i < this.chain.length; i++) {
             const currentBlock = this.chain[i];
             const previousBlock = this.chain[i - 1];
+
+            if(!currentBlock.hasValidTransactions()){
+                return false;
+            }
 
             if (currentBlock.hash !== currentBlock.calculateHash()) {
                 return false;
